@@ -62,8 +62,7 @@ function GameBoard({ displayName }){
     if (view === 'q&a') {
         return (
             <div><Questions q={question} a1={answer1} a2={answer2} a3={answer3} a4={answer4} ca={correctAnswer} /></div>
-        ) 
-    } 
+        )     } 
     else return (
         <div id="game-board">
             <h1>JEOPARDY: GOLD+ EDITION</h1>
